@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0418A1E61B00533B002B9E95 /* btnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A1E51B00533B002B9E95 /* btnView.m */; };
+		0418A1E81B005DB8002B9E95 /* logInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418A1E71B005DB8002B9E95 /* logInView.xib */; };
+		0418A1EB1B005E8A002B9E95 /* logInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418A1EA1B005E8A002B9E95 /* logInView.m */; };
+		049F11841B062B4D0038E25D /* moneyChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F11831B062B4D0038E25D /* moneyChangeView.m */; };
+		049F11861B062D380038E25D /* moneyChangeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F11851B062D380038E25D /* moneyChangeView.xib */; };
+		04B29FC61B06106800F6930C /* name.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04B29FC51B06106800F6930C /* name.plist */; };
+		04BC24D71B00D7D70022A340 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC24D31B00D7D70022A340 /* MBProgressHUD+NJ.m */; };
+		04BC24D81B00D7D70022A340 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04BC24D41B00D7D70022A340 /* MBProgressHUD.bundle */; };
+		04BC24D91B00D7D70022A340 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC24D61B00D7D70022A340 /* MBProgressHUD.m */; };
+		04C2DCCF1AF4DAA000DC8AFE /* PGMidi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DCCA1AF4DAA000DC8AFE /* PGMidi.mm */; };
+		04C2DCD01AF4DAA000DC8AFE /* PGMidiAllSources.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DCCC1AF4DAA000DC8AFE /* PGMidiAllSources.mm */; };
+		04C2DCD11AF4DAA000DC8AFE /* PGMidiFind.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DCCE1AF4DAA000DC8AFE /* PGMidiFind.mm */; };
+		04DEEF7D1AF3550600A1FFA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEF7C1AF3550600A1FFA1 /* main.m */; };
+		04DEEF801AF3550600A1FFA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEF7F1AF3550600A1FFA1 /* AppDelegate.m */; };
+		04DEEF831AF3550600A1FFA1 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEF811AF3550600A1FFA1 /* ____.xcdatamodeld */; };
+		04DEEF891AF3550600A1FFA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEF871AF3550600A1FFA1 /* Main.storyboard */; };
+		04DEEF8B1AF3550600A1FFA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEF8A1AF3550600A1FFA1 /* Images.xcassets */; };
+		04DEEF8E1AF3550600A1FFA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEF8C1AF3550600A1FFA1 /* LaunchScreen.xib */; };
+		04DEEF9A1AF3550600A1FFA1 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEF991AF3550600A1FFA1 /* ____Tests.m */; };
+		04DEEFAB1AF355B200A1FFA1 /* CYLInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFA41AF355B200A1FFA1 /* CYLInitialViewController.m */; };
+		04DEEFAC1AF355B200A1FFA1 /* CYLStudymodeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFA61AF355B200A1FFA1 /* CYLStudymodeViewController.mm */; };
+		04DEEFAD1AF355B200A1FFA1 /* CYLGamemodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFA81AF355B200A1FFA1 /* CYLGamemodeViewController.m */; };
+		04DEEFAE1AF355B200A1FFA1 /* CYLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEEFAA1AF355B200A1FFA1 /* CYLAboutViewController.m */; };
+		04DEEFB71AF356BA00A1FFA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEEFB61AF356BA00A1FFA1 /* Foundation.framework */; };
+		04DEEFB91AF356C100A1FFA1 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEEFB81AF356C100A1FFA1 /* CoreMIDI.framework */; };
+		04DEEFBB1AF356C900A1FFA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEEFBA1AF356C900A1FFA1 /* UIKit.framework */; };
+		04DEEFBD1AF356DF00A1FFA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEEFBC1AF356DF00A1FFA1 /* CoreGraphics.framework */; };
+		04DEEFCB1AF3570200A1FFA1 /* upMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFBE1AF3570200A1FFA1 /* upMark.png */; };
+		04DEEFCC1AF3570200A1FFA1 /* bassClef.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFBF1AF3570200A1FFA1 /* bassClef.png */; };
+		04DEEFCD1AF3570200A1FFA1 /* brace.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC01AF3570200A1FFA1 /* brace.png */; };
+		04DEEFCE1AF3570200A1FFA1 /* trebleClef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC11AF3570200A1FFA1 /* trebleClef.jpg */; };
+		04DEEFCF1AF3570200A1FFA1 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC21AF3570200A1FFA1 /* note.png */; };
+		04DEEFD01AF3570200A1FFA1 /* noteError.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC31AF3570200A1FFA1 /* noteError.png */; };
+		04DEEFD11AF3570200A1FFA1 /* backgroundOfStudymode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC41AF3570200A1FFA1 /* backgroundOfStudymode.jpg */; };
+		04DEEFD21AF3570200A1FFA1 /* backgroundOfInitial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC51AF3570200A1FFA1 /* backgroundOfInitial.jpg */; };
+		04DEEFD31AF3570200A1FFA1 /* backgroundOfGamemode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC61AF3570200A1FFA1 /* backgroundOfGamemode.jpg */; };
+		04DEEFD41AF3570200A1FFA1 /* study_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC71AF3570200A1FFA1 /* study_0.jpg */; };
+		04DEEFD51AF3570200A1FFA1 /* study_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC81AF3570200A1FFA1 /* study_1.jpg */; };
+		04DEEFD61AF3570200A1FFA1 /* study_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFC91AF3570200A1FFA1 /* study_2.jpg */; };
+		04DEEFD71AF3570200A1FFA1 /* study_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DEEFCA1AF3570200A1FFA1 /* study_3.jpg */; };
+		04DEF0621AF35A6300A1FFA1 /* staffView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEF0611AF35A6300A1FFA1 /* staffView.m */; };
+		04DEF0641AF35C4100A1FFA1 /* staffView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DEF0631AF35C4100A1FFA1 /* staffView.xib */; };
+		04DEF0671AF372CA00A1FFA1 /* studyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEF0661AF372CA00A1FFA1 /* studyImage.m */; };
+		04DEF0691AF372FC00A1FFA1 /* studyImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DEF0681AF372FC00A1FFA1 /* studyImage.xib */; };
+		04DEF06B1AF3929D00A1FFA1 /* position.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DEF06A1AF3929D00A1FFA1 /* position.plist */; };
+		04DEF06D1AF392A700A1FFA1 /* position2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DEF06C1AF392A700A1FFA1 /* position2.plist */; };
+		04DEF0751AF39D8D00A1FFA1 /* CYLNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEF0741AF39D8D00A1FFA1 /* CYLNote.m */; };
+		04FA7AFB1B01D66000EEE94D /* money.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FA7AFA1B01D66000EEE94D /* money.jpg */; };
+		04FA7AFD1B01D77400EEE94D /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FA7AFC1B01D77400EEE94D /* money.png */; };
+		04FA7AFF1B01DD1E00EEE94D /* accountInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FA7AFE1B01DD1E00EEE94D /* accountInfoView.xib */; };
+		04FA7B021B01DF0300EEE94D /* accountInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7B011B01DF0300EEE94D /* accountInfoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DEEF941AF3550600A1FFA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DEEF6F1AF3550600A1FFA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DEEF761AF3550600A1FFA1;
+			remoteInfo = "钢琴酷玩";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0418A1E41B00533B002B9E95 /* btnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btnView.h; sourceTree = "<group>"; };
+		0418A1E51B00533B002B9E95 /* btnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btnView.m; sourceTree = "<group>"; };
+		0418A1E71B005DB8002B9E95 /* logInView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = logInView.xib; sourceTree = "<group>"; };
+		0418A1E91B005E8A002B9E95 /* logInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logInView.h; sourceTree = "<group>"; };
+		0418A1EA1B005E8A002B9E95 /* logInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logInView.m; sourceTree = "<group>"; };
+		049F11821B062B4D0038E25D /* moneyChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moneyChangeView.h; sourceTree = "<group>"; };
+		049F11831B062B4D0038E25D /* moneyChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moneyChangeView.m; sourceTree = "<group>"; };
+		049F11851B062D380038E25D /* moneyChangeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = moneyChangeView.xib; sourceTree = "<group>"; };
+		04B29FC51B06106800F6930C /* name.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = name.plist; sourceTree = "<group>"; };
+		04BC24D21B00D7D70022A340 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		04BC24D31B00D7D70022A340 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		04BC24D41B00D7D70022A340 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		04BC24D51B00D7D70022A340 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		04BC24D61B00D7D70022A340 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		04C2DCC71AF4DAA000DC8AFE /* iOSVersionDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSVersionDetection.h; sourceTree = "<group>"; };
+		04C2DCC81AF4DAA000DC8AFE /* PGArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGArc.h; sourceTree = "<group>"; };
+		04C2DCC91AF4DAA000DC8AFE /* PGMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidi.h; sourceTree = "<group>"; };
+		04C2DCCA1AF4DAA000DC8AFE /* PGMidi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidi.mm; sourceTree = "<group>"; };
+		04C2DCCB1AF4DAA000DC8AFE /* PGMidiAllSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiAllSources.h; sourceTree = "<group>"; };
+		04C2DCCC1AF4DAA000DC8AFE /* PGMidiAllSources.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiAllSources.mm; sourceTree = "<group>"; };
+		04C2DCCD1AF4DAA000DC8AFE /* PGMidiFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiFind.h; sourceTree = "<group>"; };
+		04C2DCCE1AF4DAA000DC8AFE /* PGMidiFind.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiFind.mm; sourceTree = "<group>"; };
+		04DEEF771AF3550600A1FFA1 /* 钢琴酷玩.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "钢琴酷玩.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEEF7B1AF3550600A1FFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DEEF7C1AF3550600A1FFA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DEEF7E1AF3550600A1FFA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DEEF7F1AF3550600A1FFA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DEEF821AF3550600A1FFA1 /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
+		04DEEF881AF3550600A1FFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DEEF8A1AF3550600A1FFA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04DEEF8D1AF3550600A1FFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04DEEF931AF3550600A1FFA1 /* 钢琴酷玩Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "钢琴酷玩Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEEF981AF3550600A1FFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DEEF991AF3550600A1FFA1 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		04DEEFA31AF355B200A1FFA1 /* CYLInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLInitialViewController.h; sourceTree = "<group>"; };
+		04DEEFA41AF355B200A1FFA1 /* CYLInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLInitialViewController.m; sourceTree = "<group>"; };
+		04DEEFA51AF355B200A1FFA1 /* CYLStudymodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLStudymodeViewController.h; sourceTree = "<group>"; };
+		04DEEFA61AF355B200A1FFA1 /* CYLStudymodeViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CYLStudymodeViewController.mm; sourceTree = "<group>"; };
+		04DEEFA71AF355B200A1FFA1 /* CYLGamemodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLGamemodeViewController.h; sourceTree = "<group>"; };
+		04DEEFA81AF355B200A1FFA1 /* CYLGamemodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLGamemodeViewController.m; sourceTree = "<group>"; };
+		04DEEFA91AF355B200A1FFA1 /* CYLAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLAboutViewController.h; sourceTree = "<group>"; };
+		04DEEFAA1AF355B200A1FFA1 /* CYLAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLAboutViewController.m; sourceTree = "<group>"; };
+		04DEEFB61AF356BA00A1FFA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04DEEFB81AF356C100A1FFA1 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		04DEEFBA1AF356C900A1FFA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04DEEFBC1AF356DF00A1FFA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04DEEFBE1AF3570200A1FFA1 /* upMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upMark.png; sourceTree = "<group>"; };
+		04DEEFBF1AF3570200A1FFA1 /* bassClef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bassClef.png; sourceTree = "<group>"; };
+		04DEEFC01AF3570200A1FFA1 /* brace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brace.png; sourceTree = "<group>"; };
+		04DEEFC11AF3570200A1FFA1 /* trebleClef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trebleClef.jpg; sourceTree = "<group>"; };
+		04DEEFC21AF3570200A1FFA1 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		04DEEFC31AF3570200A1FFA1 /* noteError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteError.png; sourceTree = "<group>"; };
+		04DEEFC41AF3570200A1FFA1 /* backgroundOfStudymode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundOfStudymode.jpg; sourceTree = "<group>"; };
+		04DEEFC51AF3570200A1FFA1 /* backgroundOfInitial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundOfInitial.jpg; sourceTree = "<group>"; };
+		04DEEFC61AF3570200A1FFA1 /* backgroundOfGamemode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundOfGamemode.jpg; sourceTree = "<group>"; };
+		04DEEFC71AF3570200A1FFA1 /* study_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = study_0.jpg; sourceTree = "<group>"; };
+		04DEEFC81AF3570200A1FFA1 /* study_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = study_1.jpg; sourceTree = "<group>"; };
+		04DEEFC91AF3570200A1FFA1 /* study_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = study_2.jpg; sourceTree = "<group>"; };
+		04DEEFCA1AF3570200A1FFA1 /* study_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = study_3.jpg; sourceTree = "<group>"; };
+		04DEF0601AF35A6300A1FFA1 /* staffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = staffView.h; sourceTree = "<group>"; };
+		04DEF0611AF35A6300A1FFA1 /* staffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = staffView.m; sourceTree = "<group>"; };
+		04DEF0631AF35C4100A1FFA1 /* staffView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = staffView.xib; sourceTree = "<group>"; };
+		04DEF0651AF372CA00A1FFA1 /* studyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studyImage.h; sourceTree = "<group>"; };
+		04DEF0661AF372CA00A1FFA1 /* studyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studyImage.m; sourceTree = "<group>"; };
+		04DEF0681AF372FC00A1FFA1 /* studyImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = studyImage.xib; sourceTree = "<group>"; };
+		04DEF06A1AF3929D00A1FFA1 /* position.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = position.plist; sourceTree = "<group>"; };
+		04DEF06C1AF392A700A1FFA1 /* position2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = position2.plist; sourceTree = "<group>"; };
+		04DEF0731AF39D8D00A1FFA1 /* CYLNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLNote.h; sourceTree = "<group>"; };
+		04DEF0741AF39D8D00A1FFA1 /* CYLNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLNote.m; sourceTree = "<group>"; };
+		04FA7AFA1B01D66000EEE94D /* money.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = money.jpg; sourceTree = "<group>"; };
+		04FA7AFC1B01D77400EEE94D /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		04FA7AFE1B01DD1E00EEE94D /* accountInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = accountInfoView.xib; sourceTree = "<group>"; };
+		04FA7B001B01DF0300EEE94D /* accountInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accountInfoView.h; sourceTree = "<group>"; };
+		04FA7B011B01DF0300EEE94D /* accountInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = accountInfoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DEEF741AF3550600A1FFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEEFBD1AF356DF00A1FFA1 /* CoreGraphics.framework in Frameworks */,
+				04DEEFBB1AF356C900A1FFA1 /* UIKit.framework in Frameworks */,
+				04DEEFB91AF356C100A1FFA1 /* CoreMIDI.framework in Frameworks */,
+				04DEEFB71AF356BA00A1FFA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEF901AF3550600A1FFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BC24D11B00D7D70022A340 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				04BC24D21B00D7D70022A340 /* MBProgressHUD+NJ.h */,
+				04BC24D31B00D7D70022A340 /* MBProgressHUD+NJ.m */,
+				04BC24D41B00D7D70022A340 /* MBProgressHUD.bundle */,
+				04BC24D51B00D7D70022A340 /* MBProgressHUD.h */,
+				04BC24D61B00D7D70022A340 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		04C2DCC61AF4DAA000DC8AFE /* PGMidi */ = {
+			isa = PBXGroup;
+			children = (
+				04C2DCC71AF4DAA000DC8AFE /* iOSVersionDetection.h */,
+				04C2DCC81AF4DAA000DC8AFE /* PGArc.h */,
+				04C2DCC91AF4DAA000DC8AFE /* PGMidi.h */,
+				04C2DCCA1AF4DAA000DC8AFE /* PGMidi.mm */,
+				04C2DCCB1AF4DAA000DC8AFE /* PGMidiAllSources.h */,
+				04C2DCCC1AF4DAA000DC8AFE /* PGMidiAllSources.mm */,
+				04C2DCCD1AF4DAA000DC8AFE /* PGMidiFind.h */,
+				04C2DCCE1AF4DAA000DC8AFE /* PGMidiFind.mm */,
+			);
+			path = PGMidi;
+			sourceTree = "<group>";
+		};
+		04DEEF6E1AF3550600A1FFA1 = {
+			isa = PBXGroup;
+			children = (
+				04DEEF791AF3550600A1FFA1 /* 钢琴酷玩 */,
+				04DEEF961AF3550600A1FFA1 /* 钢琴酷玩Tests */,
+				04DEEF781AF3550600A1FFA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DEEF781AF3550600A1FFA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEF771AF3550600A1FFA1 /* 钢琴酷玩.app */,
+				04DEEF931AF3550600A1FFA1 /* 钢琴酷玩Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DEEF791AF3550600A1FFA1 /* 钢琴酷玩 */ = {
+			isa = PBXGroup;
+			children = (
+				04FCBCCF1AF4D24E0053550D /* Classes */,
+				04DEEF7A1AF3550600A1FFA1 /* Supporting Files */,
+			);
+			path = "钢琴酷玩";
+			sourceTree = "<group>";
+		};
+		04DEEF7A1AF3550600A1FFA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BC24D11B00D7D70022A340 /* MBProgressHUD */,
+				04DEEFB31AF3565500A1FFA1 /* Picture */,
+				04DEEFB51AF3568E00A1FFA1 /* Plist */,
+				04DEEFB41AF3566B00A1FFA1 /* Framework */,
+				04DEEF7C1AF3550600A1FFA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DEEF961AF3550600A1FFA1 /* 钢琴酷玩Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEF991AF3550600A1FFA1 /* ____Tests.m */,
+				04DEEF971AF3550600A1FFA1 /* Supporting Files */,
+			);
+			path = "钢琴酷玩Tests";
+			sourceTree = "<group>";
+		};
+		04DEEF971AF3550600A1FFA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEF981AF3550600A1FFA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DEEFAF1AF355BD00A1FFA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04DEF0601AF35A6300A1FFA1 /* staffView.h */,
+				04DEF0611AF35A6300A1FFA1 /* staffView.m */,
+				04DEF0651AF372CA00A1FFA1 /* studyImage.h */,
+				04DEF0661AF372CA00A1FFA1 /* studyImage.m */,
+				04DEF0731AF39D8D00A1FFA1 /* CYLNote.h */,
+				04DEF0741AF39D8D00A1FFA1 /* CYLNote.m */,
+				0418A1E41B00533B002B9E95 /* btnView.h */,
+				0418A1E51B00533B002B9E95 /* btnView.m */,
+				0418A1E91B005E8A002B9E95 /* logInView.h */,
+				0418A1EA1B005E8A002B9E95 /* logInView.m */,
+				04FA7B001B01DF0300EEE94D /* accountInfoView.h */,
+				04FA7B011B01DF0300EEE94D /* accountInfoView.m */,
+				049F11821B062B4D0038E25D /* moneyChangeView.h */,
+				049F11831B062B4D0038E25D /* moneyChangeView.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04DEEFB01AF355D700A1FFA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEF8C1AF3550600A1FFA1 /* LaunchScreen.xib */,
+				04DEF0681AF372FC00A1FFA1 /* studyImage.xib */,
+				04DEF0631AF35C4100A1FFA1 /* staffView.xib */,
+				0418A1E71B005DB8002B9E95 /* logInView.xib */,
+				04FA7AFE1B01DD1E00EEE94D /* accountInfoView.xib */,
+				049F11851B062D380038E25D /* moneyChangeView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04DEEFB11AF355E000A1FFA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEF871AF3550600A1FFA1 /* Main.storyboard */,
+				04DEEFA31AF355B200A1FFA1 /* CYLInitialViewController.h */,
+				04DEEFA41AF355B200A1FFA1 /* CYLInitialViewController.m */,
+				04DEEFA51AF355B200A1FFA1 /* CYLStudymodeViewController.h */,
+				04DEEFA61AF355B200A1FFA1 /* CYLStudymodeViewController.mm */,
+				04DEEFA71AF355B200A1FFA1 /* CYLGamemodeViewController.h */,
+				04DEEFA81AF355B200A1FFA1 /* CYLGamemodeViewController.m */,
+				04DEEFA91AF355B200A1FFA1 /* CYLAboutViewController.h */,
+				04DEEFAA1AF355B200A1FFA1 /* CYLAboutViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04DEEFB21AF3560C00A1FFA1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEF811AF3550600A1FFA1 /* ____.xcdatamodeld */,
+				04DEEF7E1AF3550600A1FFA1 /* AppDelegate.h */,
+				04DEEF7F1AF3550600A1FFA1 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		04DEEFB31AF3565500A1FFA1 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEF8A1AF3550600A1FFA1 /* Images.xcassets */,
+				04DEEFBE1AF3570200A1FFA1 /* upMark.png */,
+				04DEEFBF1AF3570200A1FFA1 /* bassClef.png */,
+				04DEEFC01AF3570200A1FFA1 /* brace.png */,
+				04DEEFC11AF3570200A1FFA1 /* trebleClef.jpg */,
+				04FA7AFC1B01D77400EEE94D /* money.png */,
+				04DEEFC21AF3570200A1FFA1 /* note.png */,
+				04DEEFC31AF3570200A1FFA1 /* noteError.png */,
+				04DEEFC41AF3570200A1FFA1 /* backgroundOfStudymode.jpg */,
+				04DEEFC51AF3570200A1FFA1 /* backgroundOfInitial.jpg */,
+				04DEEFC61AF3570200A1FFA1 /* backgroundOfGamemode.jpg */,
+				04DEEFC71AF3570200A1FFA1 /* study_0.jpg */,
+				04DEEFC81AF3570200A1FFA1 /* study_1.jpg */,
+				04DEEFC91AF3570200A1FFA1 /* study_2.jpg */,
+				04DEEFCA1AF3570200A1FFA1 /* study_3.jpg */,
+				04FA7AFA1B01D66000EEE94D /* money.jpg */,
+			);
+			name = Picture;
+			sourceTree = "<group>";
+		};
+		04DEEFB41AF3566B00A1FFA1 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				04C2DCC61AF4DAA000DC8AFE /* PGMidi */,
+				04DEEFBC1AF356DF00A1FFA1 /* CoreGraphics.framework */,
+				04DEEFBA1AF356C900A1FFA1 /* UIKit.framework */,
+				04DEEFB81AF356C100A1FFA1 /* CoreMIDI.framework */,
+				04DEEFB61AF356BA00A1FFA1 /* Foundation.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		04DEEFB51AF3568E00A1FFA1 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				04DEF06C1AF392A700A1FFA1 /* position2.plist */,
+				04DEF06A1AF3929D00A1FFA1 /* position.plist */,
+				04DEEF7B1AF3550600A1FFA1 /* Info.plist */,
+				04B29FC51B06106800F6930C /* name.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		04FCBCCF1AF4D24E0053550D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04DEEFAF1AF355BD00A1FFA1 /* Model */,
+				04DEEFB01AF355D700A1FFA1 /* View */,
+				04DEEFB11AF355E000A1FFA1 /* Controller */,
+				04DEEFB21AF3560C00A1FFA1 /* Other */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DEEF761AF3550600A1FFA1 /* 钢琴酷玩 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEEF9D1AF3550600A1FFA1 /* Build configuration list for PBXNativeTarget "钢琴酷玩" */;
+			buildPhases = (
+				04DEEF731AF3550600A1FFA1 /* Sources */,
+				04DEEF741AF3550600A1FFA1 /* Frameworks */,
+				04DEEF751AF3550600A1FFA1 /* Resources */,
+				04DEF0761AF3E9D400A1FFA1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "钢琴酷玩";
+			productName = "钢琴酷玩";
+			productReference = 04DEEF771AF3550600A1FFA1 /* 钢琴酷玩.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DEEF921AF3550600A1FFA1 /* 钢琴酷玩Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEEFA01AF3550600A1FFA1 /* Build configuration list for PBXNativeTarget "钢琴酷玩Tests" */;
+			buildPhases = (
+				04DEEF8F1AF3550600A1FFA1 /* Sources */,
+				04DEEF901AF3550600A1FFA1 /* Frameworks */,
+				04DEEF911AF3550600A1FFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DEEF951AF3550600A1FFA1 /* PBXTargetDependency */,
+			);
+			name = "钢琴酷玩Tests";
+			productName = "钢琴酷玩Tests";
+			productReference = 04DEEF931AF3550600A1FFA1 /* 钢琴酷玩Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DEEF6F1AF3550600A1FFA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CYL;
+				TargetAttributes = {
+					04DEEF761AF3550600A1FFA1 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					04DEEF921AF3550600A1FFA1 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 04DEEF761AF3550600A1FFA1;
+					};
+				};
+			};
+			buildConfigurationList = 04DEEF721AF3550600A1FFA1 /* Build configuration list for PBXProject "钢琴酷玩" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DEEF6E1AF3550600A1FFA1;
+			productRefGroup = 04DEEF781AF3550600A1FFA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DEEF761AF3550600A1FFA1 /* 钢琴酷玩 */,
+				04DEEF921AF3550600A1FFA1 /* 钢琴酷玩Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DEEF751AF3550600A1FFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEEFD21AF3570200A1FFA1 /* backgroundOfInitial.jpg in Resources */,
+				04DEF06B1AF3929D00A1FFA1 /* position.plist in Resources */,
+				04DEEFCC1AF3570200A1FFA1 /* bassClef.png in Resources */,
+				049F11861B062D380038E25D /* moneyChangeView.xib in Resources */,
+				04BC24D81B00D7D70022A340 /* MBProgressHUD.bundle in Resources */,
+				0418A1E81B005DB8002B9E95 /* logInView.xib in Resources */,
+				04DEEFCF1AF3570200A1FFA1 /* note.png in Resources */,
+				04DEF0691AF372FC00A1FFA1 /* studyImage.xib in Resources */,
+				04DEF06D1AF392A700A1FFA1 /* position2.plist in Resources */,
+				04DEEF891AF3550600A1FFA1 /* Main.storyboard in Resources */,
+				04DEEFCB1AF3570200A1FFA1 /* upMark.png in Resources */,
+				04DEEF8E1AF3550600A1FFA1 /* LaunchScreen.xib in Resources */,
+				04DEEF8B1AF3550600A1FFA1 /* Images.xcassets in Resources */,
+				04DEF0641AF35C4100A1FFA1 /* staffView.xib in Resources */,
+				04DEEFCE1AF3570200A1FFA1 /* trebleClef.jpg in Resources */,
+				04DEEFD71AF3570200A1FFA1 /* study_3.jpg in Resources */,
+				04DEEFCD1AF3570200A1FFA1 /* brace.png in Resources */,
+				04FA7AFB1B01D66000EEE94D /* money.jpg in Resources */,
+				04DEEFD41AF3570200A1FFA1 /* study_0.jpg in Resources */,
+				04DEEFD51AF3570200A1FFA1 /* study_1.jpg in Resources */,
+				04DEEFD01AF3570200A1FFA1 /* noteError.png in Resources */,
+				04FA7AFD1B01D77400EEE94D /* money.png in Resources */,
+				04B29FC61B06106800F6930C /* name.plist in Resources */,
+				04FA7AFF1B01DD1E00EEE94D /* accountInfoView.xib in Resources */,
+				04DEEFD61AF3570200A1FFA1 /* study_2.jpg in Resources */,
+				04DEEFD11AF3570200A1FFA1 /* backgroundOfStudymode.jpg in Resources */,
+				04DEEFD31AF3570200A1FFA1 /* backgroundOfGamemode.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEF911AF3550600A1FFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04DEF0761AF3E9D400A1FFA1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = "1 export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\n\n2 if [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n\n3 /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\n\n4 codesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\n\n5 fi";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DEEF731AF3550600A1FFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FA7B021B01DF0300EEE94D /* accountInfoView.m in Sources */,
+				04DEF0751AF39D8D00A1FFA1 /* CYLNote.m in Sources */,
+				04DEEF801AF3550600A1FFA1 /* AppDelegate.m in Sources */,
+				0418A1EB1B005E8A002B9E95 /* logInView.m in Sources */,
+				04DEEF831AF3550600A1FFA1 /* ____.xcdatamodeld in Sources */,
+				04DEEFAD1AF355B200A1FFA1 /* CYLGamemodeViewController.m in Sources */,
+				04BC24D71B00D7D70022A340 /* MBProgressHUD+NJ.m in Sources */,
+				04C2DCD11AF4DAA000DC8AFE /* PGMidiFind.mm in Sources */,
+				04BC24D91B00D7D70022A340 /* MBProgressHUD.m in Sources */,
+				04DEF0621AF35A6300A1FFA1 /* staffView.m in Sources */,
+				04DEEFAB1AF355B200A1FFA1 /* CYLInitialViewController.m in Sources */,
+				04DEEFAE1AF355B200A1FFA1 /* CYLAboutViewController.m in Sources */,
+				04DEEF7D1AF3550600A1FFA1 /* main.m in Sources */,
+				04DEEFAC1AF355B200A1FFA1 /* CYLStudymodeViewController.mm in Sources */,
+				04DEF0671AF372CA00A1FFA1 /* studyImage.m in Sources */,
+				0418A1E61B00533B002B9E95 /* btnView.m in Sources */,
+				04C2DCD01AF4DAA000DC8AFE /* PGMidiAllSources.mm in Sources */,
+				049F11841B062B4D0038E25D /* moneyChangeView.m in Sources */,
+				04C2DCCF1AF4DAA000DC8AFE /* PGMidi.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEEF8F1AF3550600A1FFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEEF9A1AF3550600A1FFA1 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DEEF951AF3550600A1FFA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DEEF761AF3550600A1FFA1 /* 钢琴酷玩 */;
+			targetProxy = 04DEEF941AF3550600A1FFA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DEEF871AF3550600A1FFA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DEEF881AF3550600A1FFA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DEEF8C1AF3550600A1FFA1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DEEF8D1AF3550600A1FFA1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DEEF9B1AF3550600A1FFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DEEF9C1AF3550600A1FFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DEEF9E1AF3550600A1FFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = "钢琴酷玩/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		04DEEF9F1AF3550600A1FFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = "钢琴酷玩/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		04DEEFA11AF3550600A1FFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "钢琴酷玩Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/钢琴酷玩.app/钢琴酷玩";
+			};
+			name = Debug;
+		};
+		04DEEFA21AF3550600A1FFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "钢琴酷玩Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/钢琴酷玩.app/钢琴酷玩";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DEEF721AF3550600A1FFA1 /* Build configuration list for PBXProject "钢琴酷玩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEEF9B1AF3550600A1FFA1 /* Debug */,
+				04DEEF9C1AF3550600A1FFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEEF9D1AF3550600A1FFA1 /* Build configuration list for PBXNativeTarget "钢琴酷玩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEEF9E1AF3550600A1FFA1 /* Debug */,
+				04DEEF9F1AF3550600A1FFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEEFA01AF3550600A1FFA1 /* Build configuration list for PBXNativeTarget "钢琴酷玩Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEEFA11AF3550600A1FFA1 /* Debug */,
+				04DEEFA21AF3550600A1FFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04DEEF811AF3550600A1FFA1 /* ____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04DEEF821AF3550600A1FFA1 /* ____.xcdatamodel */,
+			);
+			currentVersion = 04DEEF821AF3550600A1FFA1 /* ____.xcdatamodel */;
+			path = "____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04DEEF6F1AF3550600A1FFA1 /* Project object */;
+}
