@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Tcy-aO-hp1" userLabel="appearance" customClass="pianoKeyboardView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pianoAppearance.png" translatesAutoresizingMaskIntoConstraints="NO" id="STL-o6-Amf">
+                    <rect key="frame" x="50" y="0.0" width="913" height="166"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB" userLabel="keyboard">
+                    <rect key="frame" x="151" y="85" width="781" height="70"/>
+                    <subviews>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPi-2o-AKe" userLabel="1">
+                            <rect key="frame" x="0.0" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLu-vN-vZq" userLabel="3">
+                            <rect key="frame" x="15" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqx-gP-Lp1" userLabel="4">
+                            <rect key="frame" x="30" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dij-zW-3Ei" userLabel="6">
+                            <rect key="frame" x="45" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uE2-v2-Tvv" userLabel="8">
+                            <rect key="frame" x="60" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPo-TI-0lX" userLabel="9">
+                            <rect key="frame" x="75" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwm-XU-yGt" userLabel="11">
+                            <rect key="frame" x="90" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzN-Bm-DxP" userLabel="13">
+                            <rect key="frame" x="105" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vr-AX-pr8" userLabel="15">
+                            <rect key="frame" x="120" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qD3-6G-Duj" userLabel="16">
+                            <rect key="frame" x="135" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiT-ew-kVZ" userLabel="18">
+                            <rect key="frame" x="150" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ELn-fF-ba6" userLabel="20">
+                            <rect key="frame" x="165" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gH8-J4-WWu" userLabel="21">
+                            <rect key="frame" x="180" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1n-yb-rQo" userLabel="23">
+                            <rect key="frame" x="195" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hd2-vG-lcg" userLabel="25">
+                            <rect key="frame" x="210" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="27" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTi-60-BHe" userLabel="27">
+                            <rect key="frame" x="225" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="28" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDS-Ze-sEK" userLabel="28">
+                            <rect key="frame" x="240" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="30" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06w-eg-pcB" userLabel="30">
+                            <rect key="frame" x="255" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="32" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="go7-gW-pBV" userLabel="32">
+                            <rect key="frame" x="270" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="33" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9g-sc-UHz" userLabel="33">
+                            <rect key="frame" x="285" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="35" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zl4-zd-O6V" userLabel="35">
+                            <rect key="frame" x="300" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="37" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cug-rf-Uw1" userLabel="37">
+                            <rect key="frame" x="315" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="39" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dV-Xx-IzV" userLabel="39">
+                            <rect key="frame" x="330" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="40" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mD-UF-URI" userLabel="40">
+                            <rect key="frame" x="345" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="42" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dod-KY-bvS" userLabel="42">
+                            <rect key="frame" x="360" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="44" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCx-86-xsK" userLabel="44">
+                            <rect key="frame" x="375" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="45" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6b-Az-A8x" userLabel="45">
+                            <rect key="frame" x="390" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="47" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq0-gc-9Wr" userLabel="47">
+                            <rect key="frame" x="405" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="49" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JtO-sp-Fyu" userLabel="49">
+                            <rect key="frame" x="420" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="51" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRX-kt-NuM" userLabel="51">
+                            <rect key="frame" x="435" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="52" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLZ-Ye-ji1" userLabel="52">
+                            <rect key="frame" x="450" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="54" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Py6-dH-fNQ" userLabel="54">
+                            <rect key="frame" x="465" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="56" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgk-z8-hcH" userLabel="56">
+                            <rect key="frame" x="480" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="57" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6Z-DX-wxy" userLabel="57">
+                            <rect key="frame" x="495" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="59" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1JN-nz-4Jp" userLabel="59">
+                            <rect key="frame" x="510" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="61" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7I-4e-Ulq" userLabel="61">
+                            <rect key="frame" x="525" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="63" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aB-2z-eal" userLabel="63">
+                            <rect key="frame" x="540" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="64" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utB-Bl-3CE" userLabel="64">
+                            <rect key="frame" x="555" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="66" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzt-am-6Hm" userLabel="66">
+                            <rect key="frame" x="570" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="68" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6x-fU-65b" userLabel="68">
+                            <rect key="frame" x="585" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="69" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBM-a0-FIN" userLabel="69">
+                            <rect key="frame" x="600" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="71" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91Y-Gm-IPk" userLabel="71">
+                            <rect key="frame" x="615" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="73" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcP-L2-IA3" userLabel="73">
+                            <rect key="frame" x="630" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9K-tg-uGy" userLabel="75">
+                            <rect key="frame" x="645" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="76" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ttx-WP-cj8" userLabel="76">
+                            <rect key="frame" x="660" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="78" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ou7-t8-L2r" userLabel="78">
+                            <rect key="frame" x="675" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="80" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXc-Cs-XQC" userLabel="80">
+                            <rect key="frame" x="690" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="81" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Lp-en-hwz" userLabel="81">
+                            <rect key="frame" x="705" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="83" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXq-Dw-MQ9" userLabel="83">
+                            <rect key="frame" x="720" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="85" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofL-a2-J7o" userLabel="85">
+                            <rect key="frame" x="735" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="87" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kG3-Gw-ljK" userLabel="87">
+                            <rect key="frame" x="750" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="88" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6O-OR-GLb" userLabel="88">
+                            <rect key="frame" x="765" y="0.0" width="16" height="70"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="51"/>
+                            <state key="normal" backgroundImage="whiteKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="whiteKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="whiteKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIt-H8-mzC" userLabel="2">
+                            <rect key="frame" x="11" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIw-fA-nl1" userLabel="5">
+                            <rect key="frame" x="41" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhM-Oj-uxE" userLabel="7">
+                            <rect key="frame" x="56" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcc-tI-3W2" userLabel="10">
+                            <rect key="frame" x="86" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffy-Ch-Lv2" userLabel="12">
+                            <rect key="frame" x="101" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haq-rl-Q3M" userLabel="14">
+                            <rect key="frame" x="116" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJ2-u8-bHw" userLabel="17">
+                            <rect key="frame" x="146" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dy0-bG-Yq5" userLabel="19">
+                            <rect key="frame" x="161" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApI-sf-I2z" userLabel="22">
+                            <rect key="frame" x="191" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0U-Gt-l9d" userLabel="24">
+                            <rect key="frame" x="206" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="26" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-Rl-CCI" userLabel="26">
+                            <rect key="frame" x="221" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="29" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WP7-RG-cv2" userLabel="29">
+                            <rect key="frame" x="251" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="31" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBY-qH-4jv" userLabel="31">
+                            <rect key="frame" x="266" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="34" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBQ-nX-yOO" userLabel="34">
+                            <rect key="frame" x="296" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="36" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ky1-9r-88x" userLabel="36">
+                            <rect key="frame" x="311" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="38" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAZ-td-P7j" userLabel="38">
+                            <rect key="frame" x="326" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="41" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQp-wV-4Gf" userLabel="41">
+                            <rect key="frame" x="356" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="43" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8es-Wq-V9X" userLabel="43">
+                            <rect key="frame" x="371" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="46" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lgi-pD-kkU" userLabel="46">
+                            <rect key="frame" x="401" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="48" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfJ-U5-EZg" userLabel="48">
+                            <rect key="frame" x="416" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="50" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl5-NC-ipK" userLabel="50">
+                            <rect key="frame" x="431" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="53" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMU-dm-flH" userLabel="53">
+                            <rect key="frame" x="461" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="55" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKr-Y1-2V8" userLabel="55">
+                            <rect key="frame" x="476" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="58" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWl-cL-MdZ" userLabel="58">
+                            <rect key="frame" x="506" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bl8-kz-scA" userLabel="60">
+                            <rect key="frame" x="521" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="62" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Buw-9a-8zo" userLabel="62">
+                            <rect key="frame" x="536" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="65" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8T-fR-ZzU" userLabel="65">
+                            <rect key="frame" x="566" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="67" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82y-MX-saX" userLabel="67">
+                            <rect key="frame" x="581" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="70" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVB-tu-MZ4" userLabel="70">
+                            <rect key="frame" x="611" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="72" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVb-cK-0iQ" userLabel="72">
+                            <rect key="frame" x="626" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="74" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl8-fO-quI" userLabel="74">
+                            <rect key="frame" x="641" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="77" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xm-va-c2e" userLabel="77">
+                            <rect key="frame" x="671" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="79" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsR-x2-yci" userLabel="79">
+                            <rect key="frame" x="686" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="82" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opr-gw-8y3" userLabel="82">
+                            <rect key="frame" x="716" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="84" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdr-PW-egw" userLabel="84">
+                            <rect key="frame" x="731" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" tag="86" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9Z-TR-cSg" userLabel="86">
+                            <rect key="frame" x="746" y="0.0" width="9" height="45"/>
+                            <state key="normal" backgroundImage="blackKey.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="blackKey_Selected.png"/>
+                            <state key="highlighted" backgroundImage="blackKey_Highlighted.png"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="keyCollection" destination="zPi-2o-AKe" id="3ZV-Yl-BcT"/>
+                <outletCollection property="keyCollection" destination="HLu-vN-vZq" id="afQ-zE-v0a"/>
+                <outletCollection property="keyCollection" destination="Zqx-gP-Lp1" id="oZq-Wm-oqH"/>
+                <outletCollection property="keyCollection" destination="dij-zW-3Ei" id="xMg-B7-8KU"/>
+                <outletCollection property="keyCollection" destination="uE2-v2-Tvv" id="KE1-DQ-wgy"/>
+                <outletCollection property="keyCollection" destination="mPo-TI-0lX" id="ncr-B3-gnR"/>
+                <outletCollection property="keyCollection" destination="Dwm-XU-yGt" id="gLK-xC-FfT"/>
+                <outletCollection property="keyCollection" destination="RzN-Bm-DxP" id="Ctk-DX-eKF"/>
+                <outletCollection property="keyCollection" destination="3vr-AX-pr8" id="BX2-Bd-5md"/>
+                <outletCollection property="keyCollection" destination="qD3-6G-Duj" id="26n-g0-eJw"/>
+                <outletCollection property="keyCollection" destination="OiT-ew-kVZ" id="xEK-gr-Pp9"/>
+                <outletCollection property="keyCollection" destination="ELn-fF-ba6" id="8u7-jT-cVG"/>
+                <outletCollection property="keyCollection" destination="gH8-J4-WWu" id="vTY-zl-Lgv"/>
+                <outletCollection property="keyCollection" destination="A1n-yb-rQo" id="t6q-y5-92r"/>
+                <outletCollection property="keyCollection" destination="Hd2-vG-lcg" id="C3d-uE-4v4"/>
+                <outletCollection property="keyCollection" destination="bTi-60-BHe" id="eRE-GC-fiG"/>
+                <outletCollection property="keyCollection" destination="xDS-Ze-sEK" id="Qfi-yp-XYX"/>
+                <outletCollection property="keyCollection" destination="06w-eg-pcB" id="gff-aW-236"/>
+                <outletCollection property="keyCollection" destination="go7-gW-pBV" id="idA-Ui-kUM"/>
+                <outletCollection property="keyCollection" destination="z9g-sc-UHz" id="Yw2-2w-Hqr"/>
+                <outletCollection property="keyCollection" destination="zl4-zd-O6V" id="t2A-mJ-fqx"/>
+                <outletCollection property="keyCollection" destination="cug-rf-Uw1" id="kAB-eN-hTu"/>
+                <outletCollection property="keyCollection" destination="9dV-Xx-IzV" id="Ez7-Ga-Zj3"/>
+                <outletCollection property="keyCollection" destination="6mD-UF-URI" id="sRc-yw-150"/>
+                <outletCollection property="keyCollection" destination="Dod-KY-bvS" id="jwd-Q1-s51"/>
+                <outletCollection property="keyCollection" destination="nCx-86-xsK" id="Tbh-0T-GN7"/>
+                <outletCollection property="keyCollection" destination="o6b-Az-A8x" id="Bq1-sL-mdC"/>
+                <outletCollection property="keyCollection" destination="Tq0-gc-9Wr" id="u2u-hN-zmb"/>
+                <outletCollection property="keyCollection" destination="JtO-sp-Fyu" id="wbF-5M-5rs"/>
+                <outletCollection property="keyCollection" destination="mRX-kt-NuM" id="MNC-08-QHY"/>
+                <outletCollection property="keyCollection" destination="ZLZ-Ye-ji1" id="swr-Kn-2zU"/>
+                <outletCollection property="keyCollection" destination="Py6-dH-fNQ" id="56s-Y7-r7g"/>
+                <outletCollection property="keyCollection" destination="vgk-z8-hcH" id="sID-rX-zve"/>
+                <outletCollection property="keyCollection" destination="I6Z-DX-wxy" id="0e7-Cc-2RM"/>
+                <outletCollection property="keyCollection" destination="1JN-nz-4Jp" id="bgg-AW-SDo"/>
+                <outletCollection property="keyCollection" destination="k7I-4e-Ulq" id="qu8-MO-Nud"/>
+                <outletCollection property="keyCollection" destination="5aB-2z-eal" id="p9w-DQ-IhF"/>
+                <outletCollection property="keyCollection" destination="utB-Bl-3CE" id="iLp-e5-B0u"/>
+                <outletCollection property="keyCollection" destination="Pzt-am-6Hm" id="BPR-gx-Usb"/>
+                <outletCollection property="keyCollection" destination="n6x-fU-65b" id="xf0-tE-19t"/>
+                <outletCollection property="keyCollection" destination="gBM-a0-FIN" id="1uf-yg-K8R"/>
+                <outletCollection property="keyCollection" destination="91Y-Gm-IPk" id="hfh-mw-h1E"/>
+                <outletCollection property="keyCollection" destination="wcP-L2-IA3" id="vUe-tK-hIb"/>
+                <outletCollection property="keyCollection" destination="o9K-tg-uGy" id="YxA-Kp-OWO"/>
+                <outletCollection property="keyCollection" destination="Ttx-WP-cj8" id="QTA-8d-04W"/>
+                <outletCollection property="keyCollection" destination="ou7-t8-L2r" id="Pe4-ph-utn"/>
+                <outletCollection property="keyCollection" destination="lXc-Cs-XQC" id="dmT-y1-XW4"/>
+                <outletCollection property="keyCollection" destination="2Lp-en-hwz" id="CKO-0n-bEo"/>
+                <outletCollection property="keyCollection" destination="TXq-Dw-MQ9" id="FX9-MQ-KXv"/>
+                <outletCollection property="keyCollection" destination="ofL-a2-J7o" id="WiC-hr-LPd"/>
+                <outletCollection property="keyCollection" destination="kG3-Gw-ljK" id="fRr-s7-guG"/>
+                <outletCollection property="keyCollection" destination="E6O-OR-GLb" id="ycc-2d-2TM"/>
+                <outletCollection property="keyCollection" destination="YIt-H8-mzC" id="eYx-8k-umt"/>
+                <outletCollection property="keyCollection" destination="QIw-fA-nl1" id="u9c-Cg-7i7"/>
+                <outletCollection property="keyCollection" destination="xhM-Oj-uxE" id="1yC-8L-eOc"/>
+                <outletCollection property="keyCollection" destination="jcc-tI-3W2" id="X5y-no-ZUG"/>
+                <outletCollection property="keyCollection" destination="ffy-Ch-Lv2" id="Z0j-52-F57"/>
+                <outletCollection property="keyCollection" destination="haq-rl-Q3M" id="xIQ-N9-buX"/>
+                <outletCollection property="keyCollection" destination="eJ2-u8-bHw" id="RCp-A3-GMW"/>
+                <outletCollection property="keyCollection" destination="dy0-bG-Yq5" id="mkJ-xQ-eDB"/>
+                <outletCollection property="keyCollection" destination="ApI-sf-I2z" id="jLa-Qa-oNn"/>
+                <outletCollection property="keyCollection" destination="f0U-Gt-l9d" id="8D0-gL-66I"/>
+                <outletCollection property="keyCollection" destination="pfk-Rl-CCI" id="Xuc-fw-jlo"/>
+                <outletCollection property="keyCollection" destination="WP7-RG-cv2" id="Uj3-W0-z4N"/>
+                <outletCollection property="keyCollection" destination="kBY-qH-4jv" id="rt2-SK-Vjo"/>
+                <outletCollection property="keyCollection" destination="hBQ-nX-yOO" id="zxk-5z-Foo"/>
+                <outletCollection property="keyCollection" destination="Ky1-9r-88x" id="SPC-rD-f0L"/>
+                <outletCollection property="keyCollection" destination="fAZ-td-P7j" id="W8g-EU-gJf"/>
+                <outletCollection property="keyCollection" destination="oQp-wV-4Gf" id="aIk-k0-yoP"/>
+                <outletCollection property="keyCollection" destination="8es-Wq-V9X" id="jd5-lq-Wql"/>
+                <outletCollection property="keyCollection" destination="Lgi-pD-kkU" id="9LF-pj-93p"/>
+                <outletCollection property="keyCollection" destination="pfJ-U5-EZg" id="CMa-0r-xSr"/>
+                <outletCollection property="keyCollection" destination="Yl5-NC-ipK" id="zbj-pR-nZ6"/>
+                <outletCollection property="keyCollection" destination="GMU-dm-flH" id="9Wh-Jk-p2b"/>
+                <outletCollection property="keyCollection" destination="vKr-Y1-2V8" id="cfy-PR-PaW"/>
+                <outletCollection property="keyCollection" destination="YWl-cL-MdZ" id="rXO-Hw-OJI"/>
+                <outletCollection property="keyCollection" destination="Bl8-kz-scA" id="VFc-Yy-fsX"/>
+                <outletCollection property="keyCollection" destination="Buw-9a-8zo" id="adc-Sg-4zo"/>
+                <outletCollection property="keyCollection" destination="Y8T-fR-ZzU" id="tjF-Dw-Ntq"/>
+                <outletCollection property="keyCollection" destination="82y-MX-saX" id="ueo-aT-3eh"/>
+                <outletCollection property="keyCollection" destination="wVB-tu-MZ4" id="lAH-g0-wjs"/>
+                <outletCollection property="keyCollection" destination="OVb-cK-0iQ" id="AeY-2o-oZD"/>
+                <outletCollection property="keyCollection" destination="Sl8-fO-quI" id="w30-5E-qYA"/>
+                <outletCollection property="keyCollection" destination="2xm-va-c2e" id="VGp-0v-zbb"/>
+                <outletCollection property="keyCollection" destination="jsR-x2-yci" id="JD2-h5-Sm0"/>
+                <outletCollection property="keyCollection" destination="Opr-gw-8y3" id="5H3-Tu-79b"/>
+                <outletCollection property="keyCollection" destination="Wdr-PW-egw" id="MWK-FT-O7v"/>
+                <outletCollection property="keyCollection" destination="R9Z-TR-cSg" id="8Jl-Qd-nFy"/>
+            </connections>
+            <point key="canvasLocation" x="-1478" y="-130"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="blackKey.png" width="62" height="399"/>
+        <image name="blackKey_Highlighted.png" width="62" height="399"/>
+        <image name="blackKey_Selected.png" width="62" height="399"/>
+        <image name="pianoAppearance.png" width="959" height="214"/>
+        <image name="whiteKey.png" width="45" height="140"/>
+        <image name="whiteKey_Highlighted.png" width="45" height="140"/>
+        <image name="whiteKey_Selected.png" width="45" height="140"/>
+    </resources>
+</document>

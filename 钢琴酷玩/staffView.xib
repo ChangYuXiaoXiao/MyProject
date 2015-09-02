@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="wA4-37-2Rz" userLabel="staffViewOfStudy" customClass="staffView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="262"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" id="Gxy-SO-yv6" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="262"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="ep5-OS-Xq4" userLabel="1">
+                            <rect key="frame" x="79" y="34" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="TQn-PM-lzI" userLabel="2">
+                            <rect key="frame" x="79" y="49" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="B4T-Uu-sha" userLabel="3">
+                            <rect key="frame" x="79" y="64" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="YU0-hD-ZDj" userLabel="4">
+                            <rect key="frame" x="79" y="79" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="hhr-ub-Vfm" userLabel="5">
+                            <rect key="frame" x="79" y="94" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="JoC-63-yOa" userLabel="6">
+                            <rect key="frame" x="79" y="124" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="xRG-za-Fk1" userLabel="7">
+                            <rect key="frame" x="79" y="139" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="CEn-9y-qGe" userLabel="8">
+                            <rect key="frame" x="79" y="154" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="LMR-dU-uFu" userLabel="9">
+                            <rect key="frame" x="79" y="169" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="cKg-ab-VGM" userLabel="10">
+                            <rect key="frame" x="79" y="184" width="900" height="4"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="3yB-pk-2dY" userLabel="11">
+                            <rect key="frame" x="79" y="36" width="4" height="152"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="Sgw-0E-0uR" userLabel="12">
+                            <rect key="frame" x="971" y="35" width="3" height="152"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="V8U-nw-MAB" userLabel="13">
+                            <rect key="frame" x="976" y="34" width="3" height="154"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bassClef.png" id="33m-y4-Rsh" userLabel="bassClef">
+                            <rect key="frame" x="91" y="94" width="76" height="116"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="brace.png" id="os8-hb-osI" userLabel="dakuohao">
+                            <rect key="frame" x="33" y="35" width="38" height="152"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="trebleClef.jpg" id="xK2-5D-n3D" userLabel="gaoyinpuhao">
+                            <rect key="frame" x="75" y="14" width="108" height="102"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="657" y="-383"/>
+        </view>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="TbC-IN-BSa" userLabel="staffViewOfGame">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="292"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" tag="5555" contentMode="scaleToFill" id="KjC-5k-fA8" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="292"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" id="lkl-5Y-e6D" userLabel="up2Line">
+                            <rect key="frame" x="85" y="37" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" id="Ihg-Sg-5TO" userLabel="up1Line">
+                            <rect key="frame" x="85" y="52" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="fAf-e8-a12" userLabel="1">
+                            <rect key="frame" x="85" y="67" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="cL2-7Y-TQ1" userLabel="2">
+                            <rect key="frame" x="85" y="82" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="XRU-LR-oRw" userLabel="3">
+                            <rect key="frame" x="85" y="97" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="bx2-1k-jf0" userLabel="4">
+                            <rect key="frame" x="85" y="112" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="2rc-5U-dxq" userLabel="5">
+                            <rect key="frame" x="85" y="127" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" id="qlI-z8-nFH" userLabel="centerLine">
+                            <rect key="frame" x="85" y="142" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="9Iv-dM-LfI" userLabel="6">
+                            <rect key="frame" x="85" y="157" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="b8G-3b-oe8" userLabel="7">
+                            <rect key="frame" x="85" y="172" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="jdJ-rs-Czj" userLabel="8">
+                            <rect key="frame" x="85" y="187" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="aPs-Jn-ZeS" userLabel="9">
+                            <rect key="frame" x="85" y="202" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="sNz-Ej-2kR" userLabel="10">
+                            <rect key="frame" x="85" y="217" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" id="aUZ-5A-Ich" userLabel="down1Line">
+                            <rect key="frame" x="85" y="232" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" id="mCS-4B-gq6" userLabel="down2Line">
+                            <rect key="frame" x="85" y="247" width="900" height="4"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="acZ-cq-03l" userLabel="11">
+                            <rect key="frame" x="85" y="69" width="4" height="152"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="pDK-C2-z4k" userLabel="12">
+                            <rect key="frame" x="977" y="68" width="3" height="152"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="eHt-Q9-B9A" userLabel="13">
+                            <rect key="frame" x="982" y="67" width="3" height="154"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="trebleClef.jpg" id="j8X-sx-Ybt" userLabel="trebleClef">
+                            <rect key="frame" x="78" y="46" width="108" height="102"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bassClef.png" id="Um6-Go-ODo" userLabel="bassClef">
+                            <rect key="frame" x="97" y="127" width="76" height="116"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="brace.png" id="kwv-xC-sG8" userLabel="brace">
+                            <rect key="frame" x="39" y="37" width="38" height="214"/>
+                        </imageView>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="c8M-UW-HoG" userLabel="dangerousRigion">
+                            <rect key="frame" x="167" y="37" width="38" height="214"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="危险区" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zp7-XO-w4f">
+                                    <rect key="frame" x="0.0" y="55" width="38" height="93"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.056814280189999997" blue="0.02733619428" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="648" y="-23"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bassClef.png" width="177" height="250"/>
+        <image name="brace.png" width="68" height="432"/>
+        <image name="trebleClef.jpg" width="256" height="256"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

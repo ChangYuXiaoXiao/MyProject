@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12DB937D-97B4-4BF0-A879-3D885B538FB6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>钢琴酷玩</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EBB4654630834A20A2541502811F455B5818A4AC</key>
+		<string>https://github.com/ChangYuXiaoXiao/MyProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>钢琴酷玩客户端源代码/钢琴酷玩.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EBB4654630834A20A2541502811F455B5818A4AC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChangYuXiaoXiao/MyProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EBB4654630834A20A2541502811F455B5818A4AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EBB4654630834A20A2541502811F455B5818A4AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
